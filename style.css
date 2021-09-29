@@ -1,3 +1,4 @@
+/* Configurações globais */
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +27,8 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
+
+/* Cabeçalho */
 #div-title {
     background-image: url(assets/title-bg.png);
     background-size: cover;
@@ -62,6 +65,8 @@ h3 {
     letter-spacing: -2px;
 }
 
+
+/* Linhas Horizontais */
 hr {
     display: block;
     height: 0.4rem;
