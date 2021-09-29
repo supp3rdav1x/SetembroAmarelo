@@ -11,7 +11,7 @@ html {
     --black: #141414;
     --purple: #1B0D30;
     --yellow: #FFD100;
-    --yellow-bright: #FFEE32;
+    --yellow-op: #ffd0007a;
     --grey: #D6D6D6;
     --white: #F5F5F5;
 
@@ -26,7 +26,6 @@ body {
     color: var(--white);
     font-family: 'DM Sans', sans-serif;
 }
-
 
 /* Cabeçalho */
 #div-title {
@@ -65,7 +64,6 @@ h3 {
     letter-spacing: -2px;
 }
 
-
 /* Linhas Horizontais */
 hr {
     display: block;
@@ -80,4 +78,34 @@ hr {
 .hr {
     border-radius: 5px;
     margin-bottom: 0;
+}
+
+/* Parágrafos */
+#div-main {
+    width: 75%;
+}    
+
+.div-paragrafos {
+    text-align: left;
+    background-color: #ffd0000a;
+    border-radius: 2rem;
+    border-color: var(--yellow-op);
+    border-style: solid;
+
+    font-size: 2rem;
+
+    padding: 2rem;
+    width: 45%;
+}
+
+#paragrafo1 {
+
+}
+
+/* Imagens */
+img {
+    width: 40%;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: var(--yellow-op);
 }
